@@ -1,6 +1,7 @@
 {
 	"name": "PL_ExecuteDataFlow",
 	"properties": {
+		"description": "this pipeline is to copy selected data to identify who are the customers  who purchase huge products and lesser products. Which means the usage",
 		"activities": [
 			{
 				"name": "ProductPurchases",
