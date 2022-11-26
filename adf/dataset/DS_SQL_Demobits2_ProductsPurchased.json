@@ -1,0 +1,31 @@
+{
+	"name": "DS_SQL_Demobits2_ProductsPurchased",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_demobitsDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustomerCode",
+				"type": "varchar"
+			},
+			{
+				"name": "CustomerName",
+				"type": "varchar"
+			},
+			{
+				"name": "ProductsPurchased",
+				"type": "bigint",
+				"precision": 19
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ProductPurchases"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
