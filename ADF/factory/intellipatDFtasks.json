@@ -1,0 +1,9 @@
+{
+	"name": "intellipatDFtasks",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7377bb92-1c99-42ad-a756-435d0868fc57",
+		"tenantId": "f321d9ef-8e8b-45b8-a4ab-ff7b4b4eb93c"
+	}
+}
